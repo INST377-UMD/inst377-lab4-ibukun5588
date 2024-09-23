@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4 - Interactive Page</title>
+    <link rel="stylesheet" href="lab4.css"> 
+    
+    <style>
+        @font-face {
+            font-family: 'MacaqueQuick';
+            src: url('MacaqueQuickRegularPersonalUseOnly-rgzXA.otf') format('opentype');
+        }
+    </style>
+</head>
+<body>
+    <h1 id="main-heading">Lab 4 - Interactive Page</h1>
+
+    
+    
+    <div class="section">
+        <h2>Alert Me Section</h2>
+        <form id="alert-form">
+            <label for="alert-name">Name:</label>
+            <input type="text" id="alert-name" required>
+            <button type="submit">Alert Me</button>
+        </form>
+    </div>
+
+    
+    
+    <div class="section">
+        <h2>Change Color Section</h2>
+        <button id="change-color-btn">Change Color</button>
+    </div>
+
+    
+    
+    <div class="section">
+        <h2>Text Tester Section</h2>
+        <form id="text-tester-form">
+            <label for="text-input">Enter Text:</label>
+            <input type="text" id="text-input" required>
+            <button type="submit">Validate Text</button>
+        </form>
+    </div>
+
+    
+    
+    <div class="section">
+        <h2>Add Text Section</h2>
+        <button id="add-text-btn">Add Text</button>
+    </div>
+
+    <script src="lab4.js"></script> 
+    
+</body>
+</html>
